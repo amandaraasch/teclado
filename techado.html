@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="teclado.css">
+    <title>teclado</title>
+</head>
+<body>
+    <div class="inteiro">
+        <div class="linha1">
+            <button class="esc"><B>esc</B></button>
+        </div>
+        <div class="linha2">
+            <button class="btl" ID="192">
+                ~ 
+            <br>
+                ´
+            </button>
+            <button class="btl"ID="49">
+                ! 
+            <br>
+                1
+            </button>
+            <button class="btl"ID="50">
+                @ 
+            <br>
+                2
+            </button>
+            <button class="btl"ID="51">
+                #
+            <br>
+                3
+            </button>
+            <button class="btl"ID="52">
+                $
+            <br>
+                4
+            </button>
+            <button class="btl" ID="53">
+                % 
+            <br>
+                5
+            </button>
+            <button class="btl"ID="54">
+                ¨ 
+            <br>
+                6
+            </button>
+            <button class="btl"ID="55">
+                & 
+            <br>
+                7
+            </button>
+            <button class="btl"ID="56">
+                *
+            <br>
+                8
+            </button>
+            <button class="btl"ID="57">
+                (
+            <br>
+                9
+            </button>
+            <button class="btl"ID="49">
+                ) 
+            <br>
+                0
+            </button>
+            <button class="btl"ID="189">
+                _ 
+            <br>
+                -
+            </button>
+            <button class="btl" ID="187">
+                +
+            <br>
+                =
+            </button>
+            <button class="btl1" ID="9"><B>backspace</B></button>
+        </div>
+        <div class="linha3">
+         <button class="btl1" ID="9"><B>shift</B></button>
+         <button class="btl" ID="81">q</button>
+         <button class="btl" ID="87">w</button>
+         <button class="btl" ID="69">e</button>
+         <button class="btl" ID="82">r</button>
+         <button class="btl" ID="84">t</button>
+         <button class="btl" ID="89">t</button>
+         <button class="btl" ID="85">u</button>
+         <button class="btl" ID="73">i</button>
+         <button class="btl" ID="79">o</button>
+         <button class="btl" ID="80">p</button>
+         <button class="btl" ID="219">{ <BR> [</button>
+            <button class="btl"ID="221">} <BR> ]</button>
+                <button class="btl" ID="13">| <BR> \</button>
+         
+        </div>
+        <div class="linha4">
+            <button class="btl1"><img src="lupa.png" width="25px"></button>
+            <button class="btl">a</button>
+            <button class="btl">s</button>
+            <button class="btl">d</button>
+            <button class="btl">f</button>
+            <button class="btl">g</button>
+            <button class="btl">h</button>
+            <button class="btl">j</button>
+            <button class="btl">k</button>
+            <button class="btl">l</button>
+            <button class="btl">: <br> ;</button>
+            <button class="btl">" <BR> '</button>
+                <button class="btl1"><B>enter</B></button>
+              
+        </div>
+        <div class="linha5">
+            <button class="btl1"><B>shift</B></button>
+            <button class="btl">z</button>
+            <button class="btl">x</button>
+            <button class="btl">c</button>
+            <button class="btl">v</button>
+            <button class="btl">b</button>
+            <button class="btl">n</button>
+            <button class="btl">m</button>
+            <button class="btl"> < <br> , </button>
+            <button class="btl"> > <br> . </button>
+            <button class="btl"> ? <br> / </button>
+            <button class="btl1"><B>shift</B></button>
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+        <div class="linha6">
+            <button class="btl2"><B>ctrl</B></button>
+            <button class="btl2"><B>alt</B></button>
+            <button class="btl3"></button>
+            <button class="btl4"><B>alt</B></button>
+            <button class="btl4"><B>ctrl</B></button>
+            <div class="caixa">
+                <div class="bt1">
+                    <button class="bt"> < </button>
+                </div>
+                <div class="bt2">
+                    <button class="bt">   <img src="pracima.png "  width="20px"></button>
+                    <button class="bt"><img src="seta.png" width="20px"></button>
+                </div>
+                <div class="bt3">
+                    <button class="bt"> > </button>
+                </div>
+               
+            </div>
+            
+            
+        </div>
+
+
+
+    </div>
+    
+</body>
+<script>
+    
+    document.onkeydown = Pega_Tecla;
+    
+    function Pega_Tecla(e) 
+    {	
+        e = e || window.event;
+    
+        tecla = e.keyCode;
+        console.log(tecla); // MOSTRA O CÓDIGO DA TECLA PRESSIONADA
+    
+        
+    
+    
+    
+    }
+    </script>
+</html>
