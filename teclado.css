@@ -114,10 +114,6 @@ body
     FONT-SIZE:20PX;
     border-radius: 10px;
 }
-.esc:hover
-{
-    background-color: rgba(100, 35, 108, 0.764);
-}
 
 .btl
 {
@@ -129,10 +125,7 @@ body
     border-radius: 10px;
 
 }
-.btl:hover
-{
-    background-color: rgba(100, 35, 108, 0.764);
-}
+
 
 .btl1
 {
@@ -145,14 +138,8 @@ body
 
 
 }
-.btl1:hover
-{
-    background-color: rgba(100, 35, 108, 0.764);
-}
-.btl2:hover
-{
-    background-color: rgba(100, 35, 108, 0.764);
-}
+
+
 
 .btl2
 {
@@ -165,10 +152,7 @@ body
 
 
 }
-.btl3:hover
-{
-    background-color: rgba(100, 35, 108, 0.764);
-}
+
 .btl3
 {
     border-color: black;
@@ -180,10 +164,7 @@ body
 
 
 }
-.btl4:hover
-{
-    background-color: rgba(100, 35, 108, 0.764);
-}
+
 .btl4
 {
     border-color: black;
@@ -223,10 +204,7 @@ body
    align-content: center;
 
 }
-.bt:hover
-{
-    background-color: rgba(100, 35, 108, 0.764);
-}
+
 .bt
 {
     border-color: black;
@@ -253,6 +231,7 @@ body
    align-content: center;
 
 }
+
 
 .bt3
 {
