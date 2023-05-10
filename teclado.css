@@ -113,6 +113,7 @@ body
     margin-left: 20px;
     FONT-SIZE:20PX;
     border-radius: 10px;
+    background-color: white;
 }
 
 .btl
@@ -123,6 +124,7 @@ body
     height: 80px;
     font-size: 30px;
     border-radius: 10px;
+    background-color: white;
 
 }
 
@@ -135,6 +137,7 @@ body
     height: 80px;
     font-size: 20px;
     border-radius: 10px;
+    background-color: white;
 
 
 }
@@ -149,6 +152,7 @@ body
     height: 90px;
     font-size: 20px;
     border-radius: 10px;
+    background-color: white;
 
 
 }
@@ -161,6 +165,7 @@ body
     height: 90px;
     font-size: 20px;
     border-radius: 10px;
+    background-color: white;
 
 
 }
@@ -173,6 +178,7 @@ body
     height: 80px;
     font-size: 20px;
     border-radius: 10px;
+    background-color: white;
 
 }
 .caixa
@@ -202,6 +208,7 @@ body
     display: flex;
     align-items: center;
    align-content: center;
+   background-color: white;
 
 }
 
@@ -215,6 +222,7 @@ body
     border-radius: 10px;
     border-width: 3px;
     margin-bottom: 2px;
+    background-color: white;
 
 }
 
@@ -229,6 +237,7 @@ body
     display: flex;
     align-items: center;
    align-content: center;
+   background-color: white;
 
 }
 
@@ -244,6 +253,23 @@ body
     display: flex;
     align-items: center;
    align-content: center;
+   background-color: white;
 
 }
-
+.caixadetexto
+{
+    width: 700px;
+    height: 50px;
+    /*background-color: red;*/
+    margin-left: 180px;
+}
+.texto
+{
+    width: 700px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(240,240,240);
+    font-size: 20px;
+    background-color: white;
+    
+}
